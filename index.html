@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <h1 id="app-title">Food Search <span>App</span></h1>
+        <div class="nav-right" id="nav-right">
+            <div class="burger-menu" id="burger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="dropdown" id="dropdown">
+                <span>Main Dish</span>
+                <span>Side Dish</span>
+                <span>Drinks</span>
+            </div>
+        </div>  
+    </nav>
+
+<!-- Structure of the Website -->
+    <form action="">
+        <input type="text" name="" id="search-input" placeholder="Search for images">
+        <button id="search-button">Search</button>
+    </form>
+    <!-- Display sample images from Unsplash.com -->
+    <div class="search-results">
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Diver">
+            <a href="https://unsplash.com/photos/awj7sRviVXo" target="_blank">Salmon and zuchinni</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Program and Chill">
+            <a href="https://unsplash.com/photos/fdlZBWIP0aM" target="_blank">Avocado Toasted Egg</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1626844131082-256783844137?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Everlast">
+            <a href="https://unsplash.com/photos/a-white-plate-topped-with-spaghetti-and-tomatoes--9UJTnXpUXM" target="_blank">Tomato Spaghetti Balognese</a>
+        </div>
+
+    </div>
+    <!-- "Show More" button -->
+    <button id="show-more-button">Show More</button>
+
+    <!-- js script link -->
+    <script src="script.js"></script>
+</body>
+</html>
